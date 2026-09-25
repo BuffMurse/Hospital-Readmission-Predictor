@@ -1,0 +1,52 @@
+Feature,Data Type,Percent Missing,Description
+encounter_id,int64,0.0,Unique identifier for hospital encounter
+patient_nbr,int64,0.0,Unique identifier for patient
+race,str,2.23,Patient race or ethnicity
+gender,str,0.0,Patient gender
+age,str,0.0,Patient age group
+weight,str,96.86,Patient weight range
+admission_type_id,int64,0.0,Type of admission to the hospital
+discharge_disposition_id,int64,0.0,Patient discharge disposition
+admission_source_id,int64,0.0,Source of hospital admission
+time_in_hospital,int64,0.0,Length of hospital stay in days
+payer_code,str,39.56,Insurance or payer classification
+medical_specialty,str,49.08,Specialty of the attending physician
+num_lab_procedures,int64,0.0,Number of laboratory procedures performed
+num_procedures,int64,0.0,Number of non-laboratory procedures performed
+num_medications,int64,0.0,Number of medications administered
+number_outpatient,int64,0.0,Number of outpatient visits in the previous year
+number_emergency,int64,0.0,Number of emergency department visits in the previous year
+number_inpatient,int64,0.0,Number of inpatient admissions in the previous year
+diag_1,str,0.02,Primary diagnosis code
+diag_2,str,0.35,Secondary diagnosis code
+diag_3,str,1.4,Tertiary diagnosis code
+number_diagnoses,int64,0.0,Total number of diagnoses recorded
+max_glu_serum,str,94.75,Maximum serum glucose test result
+A1Cresult,str,83.28,Most recent hemoglobin A1C test result
+metformin,str,0.0,Whether metformin was prescribed or changed
+repaglinide,str,0.0,Whether repaglinide was prescribed or changed
+nateglinide,str,0.0,Whether nateglinide was prescribed or changed
+chlorpropamide,str,0.0,Whether chlorpropamide was prescribed or changed
+glimepiride,str,0.0,Whether glimepiride was prescribed or changed
+acetohexamide,str,0.0,Whether acetohexamide was prescribed or changed
+glipizide,str,0.0,Whether glipizide was prescribed or changed
+glyburide,str,0.0,Whether glyburide was prescribed or changed
+tolbutamide,str,0.0,Whether tolbutamide was prescribed or changed
+pioglitazone,str,0.0,Whether pioglitazone was prescribed or changed
+rosiglitazone,str,0.0,Whether rosiglitazone was prescribed or changed
+acarbose,str,0.0,Whether acarbose was prescribed or changed
+miglitol,str,0.0,Whether miglitol was prescribed or changed
+troglitazone,str,0.0,Whether troglitazone was prescribed or changed
+tolazamide,str,0.0,Whether tolazamide was prescribed or changed
+examide,str,0.0,Whether examide was prescribed or changed
+citoglipton,str,0.0,Whether citoglipton was prescribed or changed
+insulin,str,0.0,Whether insulin was prescribed or changed
+glyburide-metformin,str,0.0,Whether glyburide-metformin combination was prescribed or changed
+glipizide-metformin,str,0.0,Whether glipizide-metformin combination was prescribed or changed
+glimepiride-pioglitazone,str,0.0,Whether glimepiride-pioglitazone combination was prescribed or changed
+metformin-rosiglitazone,str,0.0,Whether metformin-rosiglitazone combination was prescribed or changed
+metformin-pioglitazone,str,0.0,Whether metformin-pioglitazone combination was prescribed or changed
+change,str,0.0,Indicates whether diabetes medications changed during the encounter
+diabetesMed,str,0.0,Indicates whether any diabetes medication was prescribed
+readmitted,str,0.0,Original hospital readmission category
+readmitted_30days,str,0.0,Target variable indicating readmission within 30 days
